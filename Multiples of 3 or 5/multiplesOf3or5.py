@@ -7,7 +7,7 @@ second = 2
 
 sum = 0
 
-while sum<4000000:
+while sum<40000:
     sum = first + second
     first = second
     second = sum
