@@ -1,16 +1,12 @@
 import math
-import numpy as np
 
-
-first = 1
-second = 2
-
-sum = 0
-
-while sum<400000:
-    sum = first + second
-    first = second
-    second = sum
+def multipleOf3or5(n):
+    sum = 0
+    for i in range(n):
+        if (i%3 == 0) | (i%5 == 0):
+            sum = sum + i
     print(sum)
 
-print(type('s'))
+print(multipleOf3or5(1000))
+
+
