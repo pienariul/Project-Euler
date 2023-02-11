@@ -19,7 +19,7 @@ def isPalindrom(n):
     else:
         return False
 
-def palindromNumber():
+def maxThreeDigitsPalindromNumber():
     arr = []
     for i in range(100, 999):
         for j in range(100, 999):
@@ -29,4 +29,4 @@ def palindromNumber():
     return np.max(arr)
     
 
-print(palindromNumber())
+print(maxThreeDigitsPalindromNumber())
