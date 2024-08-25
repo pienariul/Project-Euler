@@ -18,4 +18,3 @@ for a in range(1,500):
                 if a<b & b<c :
                     print("The numbers are :", a, b, c)
                     print("The product is :", a*b*c)
-                   
